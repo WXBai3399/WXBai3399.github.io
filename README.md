@@ -1,7 +1,8 @@
 # GitHub page搭建的个人网址
-## 一、[主页](https://wxbai3399.github.io/)
-## 二、[爱心](https://wxbai3399.github.io/love.html)
-## 三、git部署上传
+## 一、[登录](https://wxbai3399.github.io/login/index.html)
+## 二、[主页](https://wxbai3399.github.io/)
+## 三、[爱心](https://wxbai3399.github.io/love.html)
+## 四、git部署上传
 ```java
 git init
 git add ./
