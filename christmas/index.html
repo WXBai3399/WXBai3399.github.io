@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>🎄圣诞树🎄</title>
+		<link rel="stylesheet" href="./css/normalize.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script>
+			window.console = window.console || function(t) {};
+		</script>
+
+		<script>
+			if (document.location.search.match(/type=embed/gi)) {
+				window.parent.postMessage("resize", "*");
+			}
+		</script>
+
+	</head>
+
+	<body translate="no">
+		<script src="./js/three.min.js"></script>
+		<script src="./js/EffectComposer.js"></script>
+		<script src="./js/RenderPass.js"></script>
+		<script src="./js/ShaderPass.js"></script>
+		<script src="./js/CopyShader.js"></script>
+		<script src="./js/LuminosityHighPassShader.js"></script>
+		<script src="./js/UnrealBloomPass.js"></script>
+
+		<div id="overlay">
+			<ul>
+				<li class="title">请选择音乐</li>
+				<li>
+					<button class="btn" id="btnA" type="button">咱们结婚吧</button>
+				</li>
+				<li>
+					<button class="btn" id="btnB" type="button">最美情侣</button>
+				</li>
+				<li>
+					<button class="btn" id="btnC" type="button">告白气球</button>
+				</li>
+				<li>
+					<button class="btn" id="btnD" type="button">最美的期待</button>
+				</li>
+				<li class="separator">或者</li>
+				<li>
+					<input type="file" id="upload" hidden />
+					<label for="upload">上传音乐</label>
+				</li>
+			</ul>
+		</div>
+
+		<script id="rendered-js" src="./js/index.js"></script>
+
+	</body>
+
+</html>
